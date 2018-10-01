@@ -10,16 +10,21 @@
 	</head>
 	<body>
 		<header>
-			<nav>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Tools</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-				<hr>
-			</nav>
+			<div>
+				<nav class="">
+					<ul class="navbar-nav mr-auto">
+						<li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Tools</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+					</ul>
+					<form action="/search.php" class="form-inline mt-2 mt-md-0">
+						<input type="text" class="form-control mr-sm-2" placeholder="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+					</form>
+				</nav>
+			</div>
 		</header>
 		<div class="container-fluid">
 			<div class="home-content"></div>
