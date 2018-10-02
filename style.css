@@ -27,8 +27,26 @@ li a {
 }
 
 
-
-.home-content
+.home-intro
 {
 	height: 768px;
+}
+.home-boxes
+{
+	height: 768px;
+	background-color: #abfb5d;
+}
+.home-extras
+{
+	height: 768px;
+}
+
+.contact, .info-links {
+	height: 20rem;
+	width:18rem;
+}
+
+.copyright-text {
+	background-color: #000000;
+	color: #cccccc;
 }
